@@ -42,7 +42,7 @@
     letter-spacing: -1px;
 
     @include on-desktop {
-      font-size: 80px;
+      font-size: 70px;
       line-height: 1;
     }
   }
@@ -65,8 +65,8 @@
     border-radius: 50px;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 400;
     text-decoration: none;
+    font-weight: 500;
   }
 
   &__button-icon {

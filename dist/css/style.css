@@ -14,6 +14,7 @@ body {
   line-height: 1.5;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", serif;
 }
 
 img,
@@ -112,7 +113,7 @@ h6 {
 }
 @media (width >= 1024px) {
   .home__title {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 1;
   }
 }
@@ -141,6 +142,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: none;
+  font-weight: 500;
 }
 .home__button-icon {
   width: 16px;
@@ -335,7 +337,7 @@ h6 {
           align-items: center;
   gap: 8px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 .about-us__title-icon {
@@ -429,7 +431,7 @@ h6 {
           align-items: center;
   gap: 8px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 .products__title-icon {
@@ -807,7 +809,7 @@ h6 {
           align-items: center;
   gap: 8px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 .reviews__title-icon {
