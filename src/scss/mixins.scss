@@ -1,0 +1,17 @@
+@mixin container($max-width: 1200px, $padding: 24px) {
+  max-width: calc($max-width + 2 * $padding);
+  padding-inline: $padding;
+  margin-inline: auto;
+}
+
+@mixin on-tablet {
+  @media (width >= 768px) {
+    @content;
+  }
+}
+
+@mixin on-desktop {
+  @media (width >= 1024px) {
+    @content;
+  }
+}

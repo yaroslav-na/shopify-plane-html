@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="js/app.min.js" defer></script>
+    <title>GIVE ME TITLE</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css">
-  <script src="js/app.min.js" defer></script>
-  <title>GIVE ME TITLE</title>
-</head>
-
-<body>
-  @@include("html/example.html", {
-  "text": "EXAMPLE",
-  })
-</body>
-
+  <body>
+    <main>
+      @@include("html/home.html") @@include("html/about-us.html")
+      @@include("html/products.html") @@include("html/features.html")
+      @@include("html/reviews.html")
+    </main>
+  </body>
 </html>
