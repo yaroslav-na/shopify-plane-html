@@ -162,12 +162,12 @@
   }
 
   &__text {
-    margin-top: 16px;
+    margin-top: 20px;
     color: #5e5e5e;
   }
 
   &__list {
-    margin-top: 24px;
+    margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -193,6 +193,7 @@
   }
 
   &__list-item-text {
+    margin-top: 8px;
     color: rgb(94 94 94);
   }
 }

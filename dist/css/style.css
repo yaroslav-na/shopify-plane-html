@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
-  font-family: "Montserrat", serif;
+  font-family: Montserrat, serif;
 }
 
 img,
@@ -140,7 +140,6 @@ h6 {
   border-radius: 50px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 400;
   text-decoration: none;
   font-weight: 500;
 }
@@ -358,11 +357,11 @@ h6 {
   }
 }
 .about-us__text {
-  margin-top: 16px;
+  margin-top: 20px;
   color: #5e5e5e;
 }
 .about-us__list {
-  margin-top: 24px;
+  margin-top: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,6 +393,7 @@ h6 {
   font-weight: 700;
 }
 .about-us__list-item-text {
+  margin-top: 8px;
   color: rgb(94, 94, 94);
 }
 
